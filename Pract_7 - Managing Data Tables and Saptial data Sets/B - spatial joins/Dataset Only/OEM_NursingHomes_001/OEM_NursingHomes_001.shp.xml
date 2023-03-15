@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>New York City Office of Emergency Management</origin>
+				<pubdate>September 2011</pubdate>
+				<title>Nursing Homes</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<ftname Sync="TRUE">OEM_NursingHomes_001</ftname></citeinfo>
+		</citation>
+		<descript>
+			<abstract>Nursing homes in New York City</abstract>
+			<purpose>To show the location of nursing homes in New York City.</purpose>
+			<supplinf>This nursing home information was taken from the New York State Department of Health web site: http://nursinghomes.nyhealth.gov/
+
+The locations were geocoded using Geosupport version 10.7.
+
+Each nursing home has a number of services associated with it. These services are included in the attribute table and are marked with boolean values 1 (service present) and 0 (service absent).
+
+This information has been made available through the Big Apps NYC Data Mine
+http://www.nyc.gov/html/datamine/html/home/home.shtml.</supplinf>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>June 2011</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>Annually</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-74.132341</westbc>
+				<eastbc>-73.706757</eastbc>
+				<northbc>40.909839</northbc>
+				<southbc>40.571864</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">947669.879907</leftbc><rightbc Sync="TRUE">1065304.999951</rightbc><bottombc Sync="TRUE">147757.000140</bottombc><topbc Sync="TRUE">270756.999874</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>REQUIRED: Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.</themekt>
+				<themekey>Nursing homes</themekey>
+				<themekey>Department of Health</themekey>
+			</theme>
+			<theme>
+				<themekt>Data Catalog</themekt>
+				<themekey>Healthcare and Public Health, Direct Patient Healthcare, Extended Care Facilities</themekey>
+			</theme>
+			<place>
+				<placekey>New York City</placekey>
+				<placekey>NYC</placekey>
+			</place>
+		</keywords>
+		<accconst>Public information</accconst>
+		<useconst>None</useconst>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.4000</native>
+		<natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<lineage>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="OEM_NursingHomes_001">
+				<sdtstype Sync="TRUE">Entity point</sdtstype>
+				<ptvctcnt Sync="TRUE">177</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="OEM_NursingHomes_001"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Point</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">177</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<coordrep>
+						<absres Sync="TRUE">0.000000</absres>
+						<ordres Sync="TRUE">0.000000</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">survey feet</plandu>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Lambert Conformal Conic</mapprojn><lambertc><stdparll Sync="TRUE">40.666667</stdparll><stdparll Sync="TRUE">41.033333</stdparll><longcm Sync="TRUE">-74.000000</longcm><latprjo Sync="TRUE">40.166667</latprjo><feast Sync="TRUE">984250.000000</feast><fnorth Sync="TRUE">0.000000</fnorth></lambertc></mapproj></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_StatePlane_New_York_Long_Island_FIPS_3104_Feet</projcsn></cordsysn></horizsys>
+		<vertdef>
+			<altsys>
+				<altres Sync="TRUE">1.000000</altres>
+				<altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+			</altsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<detailed Name="OEM_NursingHomes_001">
+			<enttyp>
+				<enttypl Sync="TRUE">OEM_NursingHomes_001</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">177</enttypc></enttyp>
+			<attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>Label</attrlabl>
+				<attrdef>Label</attrdef>
+				<attalias Sync="TRUE">Label</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr>
+			<attr>
+				<attrlabl>Name</attrlabl>
+				<attrdef>Name of facility</attrdef>
+				<attalias Sync="TRUE">Name</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">100</attwidth></attr>
+			<attr>
+				<attrlabl>Address</attrlabl>
+				<attrdef>Address of facility</attrdef>
+				<attalias Sync="TRUE">Address</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr>
+			<attr>
+				<attrlabl>City</attrlabl>
+				<attrdef>City (mailing address)</attrdef>
+				<attalias Sync="TRUE">City</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">30</attwidth></attr>
+			<attr><attrlabl Sync="TRUE">Zipcode</attrlabl><attalias Sync="TRUE">Zipcode</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">5</attwidth></attr><attr>
+				<attrlabl>Borough</attrlabl>
+				<attrdef>Borough</attrdef>
+				<attalias Sync="TRUE">Borough</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth></attr>
+			<attr>
+				<attrlabl>PFI</attrlabl>
+				<attrdef>New York State permanent facility identifier</attrdef>
+				<attalias Sync="TRUE">PFI</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl>OpCert</attrlabl>
+				<attrdef>New York State operating certificate number</attrdef>
+				<attalias Sync="TRUE">OpCert</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl>Capacity</attrlabl>
+				<attrdef>Total number of certified beds</attrdef>
+				<attalias Sync="TRUE">Capacity</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth></attr>
+			<attr>
+				<attrlabl>Baseline</attrlabl>
+				<attrdef>Service category: Basic Services - made available to all residents.</attrdef>
+				<attalias Sync="TRUE">Baseline</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth></attr>
+			<attr>
+				<attrlabl>AIDS</attrlabl>
+				<attrdef>Service category: AIDS - provides comprehensive and coordinated health services and the operator must provide or make arrangements for: case management services; substance abuse services, if appropriate; mental health services; HIV prevention and counseling services; pastoral counseling; TB screening and on-going follow up, and specialized medical services including gynecology, as needed.</attrdef>
+				<attalias Sync="TRUE">AIDS</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth></attr>
+			<attr>
+				<attrlabl>AdultDay</attrlabl>
+				<attrdef>Service category: Adult Day Health Care - provides the health care services and activities provided to a group of persons, who are not residents of a residential health care facility, but are functionally impaired and not homebound.</attrdef>
+				<attalias Sync="TRUE">AdultDay</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth></attr>
+			<attr>
+				<attrlabl>AdultAIDS</attrlabl>
+				<attrdef>Service category: Adult Day Health Care AIDS- provides specialized services for registrants with AIDS (acquired immune deficiency syndrome), and other human immunodeficiency virus (HIV) related illness.</attrdef>
+				<attalias Sync="TRUE">AdultAIDS</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth></attr>
+			<attr>
+				<attrlabl>Laboratory</attrlabl>
+				<attrdef>Service category: Clinical Laboratory - provides microbiological, immunological, chemical, hematological, biophysical, cytological, pathological, genetic or other examination of materials derived from the human body, for the purpose of obtaining information for the diagnosis, prevention or treatment of disease, or the assessment of a health condition, or for identification purposes.</attrdef>
+				<attalias Sync="TRUE">Laboratory</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth></attr>
+			<attr><attrlabl Sync="TRUE">HealthFair</attrlabl><attalias Sync="TRUE">HealthFair</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth></attr><attr>
+				<attrlabl>Radiology</attrlabl>
+				<attrdef>Service category: Diagnostic Radiology</attrdef>
+				<attalias Sync="TRUE">Radiology</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth></attr>
+			<attr>
+				<attrlabl>LTS</attrlabl>
+				<attrdef>Service category: Limited Transfusion Services - facility which transfuses blood and may temporarily store blood and distribute it within its own organization, but relies on a blood bank holding a permit in blood services-transfusion to perform laboratory tests.</attrdef>
+				<attalias Sync="TRUE">LTS</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth></attr>
+			<attr>
+				<attrlabl>Respite</attrlabl>
+				<attrdef>Service category: Respite Care Services. (Short Term) - scheduled short term nursing home care provided on a temporary basis to an individual who needs this level of care, but who is normally cared for in the community.</attrdef>
+				<attalias Sync="TRUE">Respite</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth></attr>
+			<attr>
+				<attrlabl>Ventilator</attrlabl>
+				<attrdef>Service category: Ventilator Dependent - serves long-term ventilator dependent residents.</attrdef>
+				<attalias Sync="TRUE">Ventilator</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth></attr>
+			<attr>
+				<attrlabl>OPOT</attrlabl>
+				<attrdef>Service category: Outpatient Occupational Therapy - instructing patients in prescribed academic subjects to prevent mental deconditioning, improving patients' mental and physical conditions and aiding in the attainment of knowledge and skills that will further residents' progress toward vocational objectives.</attrdef>
+				<attalias Sync="TRUE">OPOT</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth></attr>
+			<attr>
+				<attrlabl>OPPT</attrlabl>
+				<attrdef>Service category: Outpatient Physical Therapy - employs therapeutic exercises and massage and utilizing effective properties of heat, light, cold water and electricity for diagnosis and rehabilitation of patients with neuromuscular, orthopedic and other impairments.</attrdef>
+				<attalias Sync="TRUE">OPPT</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth></attr>
+			<attr>
+				<attrlabl>OPSP</attrlabl>
+				<attrdef>Service category: Outpatient Speech Pathology - rehabilitation services.</attrdef>
+				<attalias Sync="TRUE">OPSP</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth></attr>
+			<attr><attrlabl Sync="TRUE">Behavoiral</attrlabl><attalias Sync="TRUE">Behavoiral</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth></attr><attr><attrlabl Sync="TRUE">Coma</attrlabl><attalias Sync="TRUE">Coma</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth></attr><attr><attrlabl Sync="TRUE">Pediatric</attrlabl><attalias Sync="TRUE">Pediatric</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth></attr><attr><attrlabl Sync="TRUE">Brain</attrlabl><attalias Sync="TRUE">Brain</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth></attr><attr>
+				<attrlabl>Ownership</attrlabl>
+				<attrdef>Facility ownership type</attrdef>
+				<attalias Sync="TRUE">Ownership</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">30</attwidth></attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<resdesc>Downloadable Data</resdesc>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize>0.000</transize>
+					<dssize Sync="TRUE">0.005</dssize></digtinfo>
+			</digform>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20111011</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>NYC Office of Emergency Management</cntorg>
+					<cntper>REQUIRED: The person responsible for the metadata information.</cntper></cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>165 Cadman Plaza East</address>
+					<city>Brooklyn</city>
+					<state>NY</state>
+					<postal>11201</postal>
+				</cntaddr>
+				<cntvoice>REQUIRED: The telephone number by which individuals can speak to the organization or individual.</cntvoice>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><CreaDate>20110907</CreaDate><CreaTime>14423000</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20111011</SyncDate><SyncTime>09043800</SyncTime><ModDate>20111011</ModDate><ModTime>09063300</ModTime><MetaID>{3AE1848E-4332-4E24-AF85-9459D0CE3727}</MetaID><DataProperties><lineage/></DataProperties></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.4000</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">OEM_NursingHomes_001</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">947669.879907</westBL><eastBL Sync="TRUE">1065304.999951</eastBL><northBL Sync="TRUE">270756.999874</northBL><southBL Sync="TRUE">147757.00014</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-74.132341</westBL><eastBL Sync="TRUE">-73.706757</eastBL><northBL Sync="TRUE">40.909839</northBL><southBL Sync="TRUE">40.571864</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\gisshare\files\GIS_DATA_EXPORT\BigApps\2011 Submission\NursingHomes\OEM_NursingHomes_001.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">0.005</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">NAD_1983_StatePlane_New_York_Long_Island_FIPS_3104_Feet</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="OEM_NursingHomes_001"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="004"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">177</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20111011</mdDateSt></metadata>

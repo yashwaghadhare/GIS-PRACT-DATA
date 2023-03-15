@@ -1,0 +1,12 @@
+1. We all know that tile is a very important part of QGIS. 
+2. For many purposes, we need various types of maps in our work.
+   Many of us already know about the uses of the OpenLayers plugin. 
+3. OpenLayers plugin is very useful for georeferencing and making vector files and many more. 
+4. But in OpenLayers plugin fewer tiles are available. Sometimes we need more tiles for our work.
+5. To solve these problems we found the best alternatives to the OpenLayers plugin. 
+   This plugin is named Tile Plus (Tile+).
+6. But when you search for Tile Plus plugin in the QGIS plugin menu. You don’t find it there.
+
+
+
+Reference : https://geographicalanalysis.com/download-tile-plus-plugin-qgis/

@@ -1,0 +1,1 @@
+right click and open attribute table and type cmd : "pop_max" > 100 and "pop_min" < 10000
